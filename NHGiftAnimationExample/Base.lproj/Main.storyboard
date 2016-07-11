@@ -1,25 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rzL-oN-z6z">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Uq2-Hp-BJX">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="rzL-oN-z6z" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="qUp-az-bVO"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Yv-f3-Jpl"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="PRT-xi-ORn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xed-FT-Tsq">
+                                <rect key="frame" x="305" y="385" width="70" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.109497645" blue="0.11808124790000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8lo-Io-ue7"/>
+                                    <constraint firstAttribute="width" constant="70" id="Ndm-Eu-dfN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="保时捷">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="porscheAction:" destination="rzL-oN-z6z" eventType="touchUpInside" id="4ww-gr-aVf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUm-an-jeA">
+                                <rect key="frame" x="305" y="434" width="70" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.109497645" blue="0.11808124790000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="bjc-5D-kwV"/>
+                                    <constraint firstAttribute="height" constant="30" id="z2N-nJ-R1y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="歼灭者">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="fighterAction:" destination="rzL-oN-z6z" eventType="touchUpInside" id="dPr-DY-azg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4q-jn-qnR">
+                                <rect key="frame" x="305" y="485" width="70" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.109497645" blue="0.11808124790000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="04Y-Ae-kMK"/>
+                                    <constraint firstAttribute="width" constant="70" id="PKi-dB-Edb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="客机">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="planeAction:" destination="rzL-oN-z6z" eventType="touchUpInside" id="Ouc-Yo-HzJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="civ-J9-mDj">
+                                <rect key="frame" x="305" y="534" width="70" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.109497645" blue="0.11808124790000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PYF-ag-snF"/>
+                                    <constraint firstAttribute="width" constant="70" id="qpm-Ub-jNH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="鲜花1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flowerAAction:" destination="rzL-oN-z6z" eventType="touchUpInside" id="r58-nN-7wA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc1-HT-gP5">
+                                <rect key="frame" x="305" y="583" width="70" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.109497645" blue="0.11808124790000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="dp4-oq-VD3"/>
+                                    <constraint firstAttribute="height" constant="30" id="oAk-Id-fQu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="鲜花2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flowerBAction:" destination="rzL-oN-z6z" eventType="touchUpInside" id="Mj1-PW-MZj"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jUm-an-jeA" secondAttribute="trailing" id="AHe-MV-5IE"/>
+                            <constraint firstAttribute="trailing" secondItem="xed-FT-Tsq" secondAttribute="trailing" id="HUd-NP-6bb"/>
+                            <constraint firstAttribute="trailing" secondItem="wc1-HT-gP5" secondAttribute="trailing" id="WfP-L6-ePv"/>
+                            <constraint firstAttribute="trailing" secondItem="civ-J9-mDj" secondAttribute="trailing" id="WrJ-1r-7NT"/>
+                            <constraint firstItem="P4q-jn-qnR" firstAttribute="top" secondItem="jUm-an-jeA" secondAttribute="bottom" constant="21" id="YVj-Os-2MP"/>
+                            <constraint firstItem="8Yv-f3-Jpl" firstAttribute="top" secondItem="wc1-HT-gP5" secondAttribute="bottom" constant="54" id="bFd-9w-Egx"/>
+                            <constraint firstItem="wc1-HT-gP5" firstAttribute="top" secondItem="civ-J9-mDj" secondAttribute="bottom" constant="19" id="gTP-Hw-ywt"/>
+                            <constraint firstItem="civ-J9-mDj" firstAttribute="top" secondItem="P4q-jn-qnR" secondAttribute="bottom" constant="19" id="htD-EG-NdK"/>
+                            <constraint firstAttribute="trailing" secondItem="P4q-jn-qnR" secondAttribute="trailing" id="p9a-q2-c1G"/>
+                            <constraint firstItem="jUm-an-jeA" firstAttribute="top" secondItem="xed-FT-Tsq" secondAttribute="bottom" constant="19" id="s7A-H2-9ft"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="fighter" destination="jUm-an-jeA" id="ima-Gm-I3X"/>
+                        <outlet property="flower_a" destination="civ-J9-mDj" id="A9n-01-4cR"/>
+                        <outlet property="flower_b" destination="wc1-HT-gP5" id="DH7-nB-gSj"/>
+                        <outlet property="plane" destination="P4q-jn-qnR" id="vAE-wb-RDa"/>
+                        <outlet property="porsche" destination="xed-FT-Tsq" id="dq1-m7-ltB"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="miX-W1-I2L" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="331.5" y="404.5"/>
         </scene>
     </scenes>
 </document>

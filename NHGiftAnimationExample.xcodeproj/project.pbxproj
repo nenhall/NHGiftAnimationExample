@@ -15,6 +15,14 @@
 		0A6444E21D328F5C002A8369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6444E01D328F5C002A8369 /* LaunchScreen.storyboard */; };
 		0A6444ED1D328F5C002A8369 /* NHGiftAnimationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6444EC1D328F5C002A8369 /* NHGiftAnimationExampleTests.m */; };
 		0A6444F81D328F5C002A8369 /* NHGiftAnimationExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6444F71D328F5C002A8369 /* NHGiftAnimationExampleUITests.m */; };
+		0A64450D1D328FDA002A8369 /* NHGiftAnimtionSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A64450C1D328FDA002A8369 /* NHGiftAnimtionSDK.a */; };
+		0A6445161D329274002A8369 /* NHCarView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A64450F1D329274002A8369 /* NHCarView.nib */; };
+		0A6445171D329274002A8369 /* NHFighterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445101D329274002A8369 /* NHFighterView.nib */; };
+		0A6445181D329274002A8369 /* NHPlaneView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445111D329274002A8369 /* NHPlaneView.nib */; };
+		0A6445191D329274002A8369 /* NHCarView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445131D329274002A8369 /* NHCarView.nib */; };
+		0A64451A1D329274002A8369 /* NHFighterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445141D329274002A8369 /* NHFighterView.nib */; };
+		0A64451B1D329274002A8369 /* NHPlaneView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445151D329274002A8369 /* NHPlaneView.nib */; };
+		0A64451D1D3292A0002A8369 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A64451C1D3292A0002A8369 /* resource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		0A6444F31D328F5C002A8369 /* NHGiftAnimationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHGiftAnimationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6444F71D328F5C002A8369 /* NHGiftAnimationExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHGiftAnimationExampleUITests.m; sourceTree = "<group>"; };
 		0A6444F91D328F5C002A8369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6445071D328FDA002A8369 /* NHCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCarView.h; sourceTree = "<group>"; };
+		0A6445081D328FDA002A8369 /* NHFighterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHFighterView.h; sourceTree = "<group>"; };
+		0A6445091D328FDA002A8369 /* NHHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHeader.h; sourceTree = "<group>"; };
+		0A64450A1D328FDA002A8369 /* NHPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPlaneView.h; sourceTree = "<group>"; };
+		0A64450B1D328FDA002A8369 /* NHPresentFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPresentFlower.h; sourceTree = "<group>"; };
+		0A64450C1D328FDA002A8369 /* NHGiftAnimtionSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = NHGiftAnimtionSDK.a; sourceTree = "<group>"; };
+		0A64450F1D329274002A8369 /* NHCarView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHCarView.nib; sourceTree = "<group>"; };
+		0A6445101D329274002A8369 /* NHFighterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHFighterView.nib; sourceTree = "<group>"; };
+		0A6445111D329274002A8369 /* NHPlaneView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHPlaneView.nib; sourceTree = "<group>"; };
+		0A6445131D329274002A8369 /* NHCarView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHCarView.nib; sourceTree = "<group>"; };
+		0A6445141D329274002A8369 /* NHFighterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHFighterView.nib; sourceTree = "<group>"; };
+		0A6445151D329274002A8369 /* NHPlaneView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHPlaneView.nib; sourceTree = "<group>"; };
+		0A64451C1D3292A0002A8369 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A64450D1D328FDA002A8369 /* NHGiftAnimtionSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +123,7 @@
 		0A6444D11D328F5C002A8369 /* NHGiftAnimationExample */ = {
 			isa = PBXGroup;
 			children = (
+				0A6445051D328FDA002A8369 /* NHGiftAnimtionSDK */,
 				0A6444D51D328F5C002A8369 /* AppDelegate.h */,
 				0A6444D61D328F5C002A8369 /* AppDelegate.m */,
 				0A6444D81D328F5C002A8369 /* ViewController.h */,
@@ -138,6 +161,50 @@
 				0A6444F91D328F5C002A8369 /* Info.plist */,
 			);
 			path = NHGiftAnimationExampleUITests;
+			sourceTree = "<group>";
+		};
+		0A6445051D328FDA002A8369 /* NHGiftAnimtionSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0A6445061D328FDA002A8369 /* include */,
+				0A64450C1D328FDA002A8369 /* NHGiftAnimtionSDK.a */,
+				0A64450E1D329274002A8369 /* genuine */,
+				0A6445121D329274002A8369 /* imulator */,
+				0A64451C1D3292A0002A8369 /* resource.bundle */,
+			);
+			path = NHGiftAnimtionSDK;
+			sourceTree = "<group>";
+		};
+		0A6445061D328FDA002A8369 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0A6445071D328FDA002A8369 /* NHCarView.h */,
+				0A6445081D328FDA002A8369 /* NHFighterView.h */,
+				0A6445091D328FDA002A8369 /* NHHeader.h */,
+				0A64450A1D328FDA002A8369 /* NHPlaneView.h */,
+				0A64450B1D328FDA002A8369 /* NHPresentFlower.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0A64450E1D329274002A8369 /* genuine */ = {
+			isa = PBXGroup;
+			children = (
+				0A64450F1D329274002A8369 /* NHCarView.nib */,
+				0A6445101D329274002A8369 /* NHFighterView.nib */,
+				0A6445111D329274002A8369 /* NHPlaneView.nib */,
+			);
+			path = genuine;
+			sourceTree = "<group>";
+		};
+		0A6445121D329274002A8369 /* imulator */ = {
+			isa = PBXGroup;
+			children = (
+				0A6445131D329274002A8369 /* NHCarView.nib */,
+				0A6445141D329274002A8369 /* NHFighterView.nib */,
+				0A6445151D329274002A8369 /* NHPlaneView.nib */,
+			);
+			path = imulator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +274,7 @@
 				TargetAttributes = {
 					0A6444CE1D328F5C002A8369 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4VDPFYNK56;
 					};
 					0A6444E71D328F5C002A8369 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,7 +313,14 @@
 			files = (
 				0A6444E21D328F5C002A8369 /* LaunchScreen.storyboard in Resources */,
 				0A6444DF1D328F5C002A8369 /* Assets.xcassets in Resources */,
+				0A64451A1D329274002A8369 /* NHFighterView.nib in Resources */,
+				0A64451B1D329274002A8369 /* NHPlaneView.nib in Resources */,
 				0A6444DD1D328F5C002A8369 /* Main.storyboard in Resources */,
+				0A6445181D329274002A8369 /* NHPlaneView.nib in Resources */,
+				0A6445171D329274002A8369 /* NHFighterView.nib in Resources */,
+				0A64451D1D3292A0002A8369 /* resource.bundle in Resources */,
+				0A6445161D329274002A8369 /* NHCarView.nib in Resources */,
+				0A6445191D329274002A8369 /* NHCarView.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +490,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NHGiftAnimationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHGiftAnimationExample/NHGiftAnimtionSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HaoHao-Studio.NHGiftAnimationExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +509,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NHGiftAnimationExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHGiftAnimationExample/NHGiftAnimtionSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "HaoHao-Studio.NHGiftAnimationExample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -12,27 +12,11 @@
 
 
 /**
- *  需要几个控制点就设置几个；
- *  注意：曲线的控制点和结束点需要一一对应，即curve_control_point_a 对 curve_end_point_a
- CGPoint.x的值不能设置成:999.9,否则无效
- *  传了curve_control_point_a 就必须传 curve_end_point_a
+ *  需要几个控制点就设置几个:
+ *  数组内的每个元素代码一个控制点和结束点
+ *  数组中放CGRect数据，CGRect的x和y分别作为控制点的x和y，CGRect的width和height作为结束点的x和y
  */
-@property (nonatomic, assign) CGPoint curve_control_point_a;
-@property (nonatomic, assign) CGPoint curve_control_point_b;
-@property (nonatomic, assign) CGPoint curve_control_point_c;
-@property (nonatomic, assign) CGPoint curve_control_point_d;
-@property (nonatomic, assign) CGPoint curve_control_point_e;
-@property (nonatomic, assign) CGPoint curve_control_point_f;
-@property (nonatomic, assign) CGPoint curve_control_point_g;
-
-@property (nonatomic, assign) CGPoint curve_end_point_a;
-@property (nonatomic, assign) CGPoint curve_end_point_b;
-@property (nonatomic, assign) CGPoint curve_end_point_c;
-@property (nonatomic, assign) CGPoint curve_end_point_d;
-@property (nonatomic, assign) CGPoint curve_end_point_e;
-@property (nonatomic, assign) CGPoint curve_end_point_f;
-@property (nonatomic, assign) CGPoint curve_end_point_g;
-
+@property (nullable, nonatomic, copy) NSArray *curveControlAndEndPoints;
 
 /**
  *  动画结束后动画层是否从当前视图上移除，默认 NO

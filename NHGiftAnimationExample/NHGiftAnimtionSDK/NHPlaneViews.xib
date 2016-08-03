@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NHPlaneViews">
+            <rect key="frame" x="0.0" y="0.0" width="232" height="92"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/plane-tail.png" translatesAutoresizingMaskIntoConstraints="NO" id="0rq-6x-Ili">
+                    <rect key="frame" x="58" y="0.0" width="174" height="84"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/plane-head.png" translatesAutoresizingMaskIntoConstraints="NO" id="gbO-HI-cx6">
+                    <rect key="frame" x="14" y="36" width="70" height="31"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/plane-screw-1-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="gH3-uq-rx4">
+                    <rect key="frame" x="6" y="17" width="39" height="75"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="planeScrew" destination="gH3-uq-rx4" id="yUv-gJ-0qg"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="resource.bundle/plane-head.png" width="500" height="211"/>
+        <image name="resource.bundle/plane-screw-1-1.png" width="500" height="211"/>
+        <image name="resource.bundle/plane-tail.png" width="500" height="211"/>
+    </resources>
+</document>

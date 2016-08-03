@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NHCarViews">
+            <rect key="frame" x="0.0" y="0.0" width="166" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/porche.png" translatesAutoresizingMaskIntoConstraints="NO" id="fn9-Qh-bvD">
+                    <rect key="frame" x="0.0" y="0.0" width="166" height="70"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/porche-light.png" translatesAutoresizingMaskIntoConstraints="NO" id="e4P-7s-Kwb">
+                    <rect key="frame" x="97" y="12" width="47" height="50"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/porche-f1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DFb-YJ-Flu">
+                    <rect key="frame" x="72" y="36" width="22" height="31"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resource.bundle/porche-b1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tjk-fg-HJF">
+                    <rect key="frame" x="2" y="19" width="11" height="22"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="afterWheel" destination="Tjk-fg-HJF" id="GYr-u0-6jQ"/>
+                <outlet property="beforeWheel" destination="DFb-YJ-Flu" id="qD2-GX-yj5"/>
+                <outlet property="carBackImage" destination="fn9-Qh-bvD" id="mUl-u6-QF1"/>
+                <outlet property="light" destination="e4P-7s-Kwb" id="btQ-hn-wn4"/>
+            </connections>
+            <point key="canvasLocation" x="122" y="244"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="resource.bundle/porche-b1.png" width="500" height="211"/>
+        <image name="resource.bundle/porche-f1.png" width="500" height="211"/>
+        <image name="resource.bundle/porche-light.png" width="500" height="211"/>
+        <image name="resource.bundle/porche.png" width="500" height="211"/>
+    </resources>
+</document>

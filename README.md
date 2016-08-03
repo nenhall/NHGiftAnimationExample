@@ -4,6 +4,29 @@
  ![Aaron Swartz](https://github.com/NegHao/NHGiftAnimationExample/blob/master/NHGift.gif)
 
 <br/>
+使用方法：<br/>
+/**<br/>
+*  加载动画视图<br/>
+*<br/>
+*  @param frame 动画视图的大小<br/>
+*<br/>
+*  @return 返回你需要的动画视图<br/>
+*/<br/>
++ (nullable instancetype)loadCarViewWithPoint:(CGPoint)point;<br/>
+
+
+/**<br/>
+*  设置动画的运行轨迹<br/>
+*  注：调此方法前，如需要设置多于两个控制点的动画，请先设置好curve_control_point_*及curve_end_point_*位置
+其它属性也是一样，在调此方法前设置好<br/>
+*  @param movePoints 开始的位置(出发点)<br/>
+*  @param endPoint   最终动画所在停留的位置<br/>
+*/<br/>
+- (void)addAnimationsMoveToPoint:(CGPoint)movePoints endPoint:(CGPoint)endPoint;<br/>
+
+
+实例一个送车动画：<br/>
+
 NHCarView *car = [NHCarView loadCarViewWithPoint:CGPointZero];<br/>
 
 //方法如下：数组内的每个元素代码一个控制点和结束点<br/>

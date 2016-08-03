@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "NHHeader.h"
+#import "NHCarViews.h"
+#import "NHPlaneViews.h"
 
 #define NHBounds [UIScreen mainScreen].bounds.size
 
@@ -30,15 +32,15 @@
 }
 
 - (IBAction)porscheAction:(id)sender {
-    NHCarView *car = [NHCarView loadCarViewWithPoint:CGPointZero];
+    NHCarViews *car = [NHCarViews loadCarViewWithPoint:CGPointZero];
     
     //数组中放CGRect数据，CGRect的x和y分别作为控制点的x和y，CGRect的width和height作为结束点的x和y
     //方法如下：数组内的每个元素代码一个控制点和结束点
-    //    NSMutableArray *pointArrs = [[NSMutableArray alloc] init];
-    //    CGFloat width = [UIScreen mainScreen].bounds.size.width / 2;
-    //    [pointArrs addObject:NSStringFromCGRect(CGRectMake(width, 300, width, 300))];
-    //     pointArrs addObject:...
-    //    car.curveControlAndEndPoints = pointArrs;
+    NSMutableArray *pointArrs = [[NSMutableArray alloc] init];
+    CGFloat width = [UIScreen mainScreen].bounds.size.width / 2;
+    [pointArrs addObject:NSStringFromCGRect(CGRectMake(width, 300, width, 300))];
+//    pointArrs addObject:...添加更多的CGRect
+    car.curveControlAndEndPoints = pointArrs;
     
     [car addAnimationsMoveToPoint:CGPointMake(0, 100) endPoint:CGPointMake(self.view.bounds.size.width +166, 500)];
     [self.view addSubview:car];
@@ -55,7 +57,7 @@
 
 
 - (IBAction)planeAction:(id)sender {
-    NHPlaneView *plane = [NHPlaneView loadPlaneViewWithPoint:CGPointMake(NHBounds.width + 232, 0)];
+    NHPlaneViews *plane = [NHPlaneViews loadPlaneViewWithPoint:CGPointMake(NHBounds.width + 232, 0)];
     //plane.curveControlAndEndPoints 用法同carView一样
     
     [plane addAnimationsMoveToPoint:CGPointMake(NHBounds.width, 100) endPoint:CGPointMake(-500, 410)];

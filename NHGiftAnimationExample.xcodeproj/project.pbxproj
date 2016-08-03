@@ -23,6 +23,10 @@
 		0A64451A1D329274002A8369 /* NHFighterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445141D329274002A8369 /* NHFighterView.nib */; };
 		0A64451B1D329274002A8369 /* NHPlaneView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6445151D329274002A8369 /* NHPlaneView.nib */; };
 		0A64451D1D3292A0002A8369 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A64451C1D3292A0002A8369 /* resource.bundle */; };
+		DC39083D1D518F5200B38D0D /* NHCarViews.m in Sources */ = {isa = PBXBuildFile; fileRef = DC39083C1D518F5200B38D0D /* NHCarViews.m */; };
+		DC39083F1D5191B900B38D0D /* NHCarViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC39083E1D5191B900B38D0D /* NHCarViews.xib */; };
+		DC3908431D51930200B38D0D /* NHPlaneViews.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3908411D51930200B38D0D /* NHPlaneViews.m */; };
+		DC3908441D51930200B38D0D /* NHPlaneViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3908421D51930200B38D0D /* NHPlaneViews.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,12 @@
 		0A6445141D329274002A8369 /* NHFighterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHFighterView.nib; sourceTree = "<group>"; };
 		0A6445151D329274002A8369 /* NHPlaneView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = NHPlaneView.nib; sourceTree = "<group>"; };
 		0A64451C1D3292A0002A8369 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		DC39083B1D518F5200B38D0D /* NHCarViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCarViews.h; sourceTree = "<group>"; };
+		DC39083C1D518F5200B38D0D /* NHCarViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCarViews.m; sourceTree = "<group>"; };
+		DC39083E1D5191B900B38D0D /* NHCarViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHCarViews.xib; sourceTree = "<group>"; };
+		DC3908401D51930200B38D0D /* NHPlaneViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHPlaneViews.h; sourceTree = "<group>"; };
+		DC3908411D51930200B38D0D /* NHPlaneViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHPlaneViews.m; sourceTree = "<group>"; };
+		DC3908421D51930200B38D0D /* NHPlaneViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHPlaneViews.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +176,12 @@
 		0A6445051D328FDA002A8369 /* NHGiftAnimtionSDK */ = {
 			isa = PBXGroup;
 			children = (
+				DC39083B1D518F5200B38D0D /* NHCarViews.h */,
+				DC39083C1D518F5200B38D0D /* NHCarViews.m */,
+				DC39083E1D5191B900B38D0D /* NHCarViews.xib */,
+				DC3908401D51930200B38D0D /* NHPlaneViews.h */,
+				DC3908411D51930200B38D0D /* NHPlaneViews.m */,
+				DC3908421D51930200B38D0D /* NHPlaneViews.xib */,
 				0A6445061D328FDA002A8369 /* include */,
 				0A64450C1D328FDA002A8369 /* NHGiftAnimtionSDK.a */,
 				0A64450E1D329274002A8369 /* genuine */,
@@ -312,12 +328,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6444E21D328F5C002A8369 /* LaunchScreen.storyboard in Resources */,
+				DC3908441D51930200B38D0D /* NHPlaneViews.xib in Resources */,
 				0A6444DF1D328F5C002A8369 /* Assets.xcassets in Resources */,
 				0A64451A1D329274002A8369 /* NHFighterView.nib in Resources */,
 				0A64451B1D329274002A8369 /* NHPlaneView.nib in Resources */,
 				0A6444DD1D328F5C002A8369 /* Main.storyboard in Resources */,
 				0A6445181D329274002A8369 /* NHPlaneView.nib in Resources */,
 				0A6445171D329274002A8369 /* NHFighterView.nib in Resources */,
+				DC39083F1D5191B900B38D0D /* NHCarViews.xib in Resources */,
 				0A64451D1D3292A0002A8369 /* resource.bundle in Resources */,
 				0A6445161D329274002A8369 /* NHCarView.nib in Resources */,
 				0A6445191D329274002A8369 /* NHCarView.nib in Resources */,
@@ -346,8 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6444DA1D328F5C002A8369 /* ViewController.m in Sources */,
+				DC39083D1D518F5200B38D0D /* NHCarViews.m in Sources */,
 				0A6444D71D328F5C002A8369 /* AppDelegate.m in Sources */,
 				0A6444D41D328F5C002A8369 /* main.m in Sources */,
+				DC3908431D51930200B38D0D /* NHPlaneViews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +609,7 @@
 				0A6444FE1D328F5C002A8369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A6444FF1D328F5C002A8369 /* Build configuration list for PBXNativeTarget "NHGiftAnimationExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +618,7 @@
 				0A6445011D328F5C002A8369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A6445021D328F5C002A8369 /* Build configuration list for PBXNativeTarget "NHGiftAnimationExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +627,7 @@
 				0A6445041D328F5C002A8369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
